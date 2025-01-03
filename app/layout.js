@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Project Setup',
-  description: 'Description for your project',
+  title: 'PremierHelix LLC',
+  description: 'Specialized virtual consultations for epilepsy,<br>stroke recovery, headaches,<br>movement disorders, and dementia.',
 }
 
 export default function RootLayout({ children }) {

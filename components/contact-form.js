@@ -97,14 +97,14 @@ export default function ContactForm() {
                 onChange={(e) => setFormState({ ...formState, condition: e.target.value })}
               >
                 <option value="">Select a condition</option>
-                <option value="ADHD">ADHD</option>
-                <option value="Anxiety">Anxiety</option>
-                <option value="Depression">Depression</option>
-                <option value="Insomnia">Insomnia</option>
-                <option value="OCD">OCD</option>
-                <option value="Stress">Stress</option>
-                <option value="Weight Loss">Weight Loss</option>
-                <option value="Other">Other</option>
+                <option value="Epilepsy Management">Epilepsy Management</option>
+                <option value="Stroke Medication Management">Stroke Medication Management</option>
+                <option value="Headache Treatment">Headache Treatment</option>
+                <option value="Insomnia">Movement Disorders</option>
+                <option value="Movement Disorders">Dementia Care</option>
+                <option value="Migraines & Other Headache Disorders">Migraines & Other Headache Disorders</option>
+                <option value="ALS">Amyotrophic Lateral Sclerosis (ALS)</option>
+                <option value="MS">Multiple Sclerosis (MS)</option>
               </select>
             </div>
           </div>

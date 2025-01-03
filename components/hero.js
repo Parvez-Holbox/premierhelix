@@ -3,27 +3,33 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import Link from 'next/link'
 
 const slides = [
   {
     title: 'Welcome to PremierHelix LLC',
     description: 'Empowering innovation through dedicated care and advanced solutions.',
     image: '/images/carousel/Slide1.jpg',
+    link: '#conditions', // Add link for "Learn More" button
   },
   {
     title: 'Innovating Your Future',
-    description: 'Dedicated to providing advanced solutions tailored to your needs.',
+    description: 'Dedicated to providing advanced solutions<br>tailored to your needs.',
     image: '/images/carousel/Slide2.jpg',
+    link: '#conditions', // Add link for "Learn More" button
   },
   {
-    title: 'Empowering Your Journey',
-    description: 'Achieving excellence through innovative care and personalized solutions.',
+    title: 'Expert Neurological Care, Anywhere You Are',
+    description:
+      'Specialized virtual consultations for epilepsy,<br>stroke recovery, headaches,<br>movement disorders, and dementia.',
     image: '/images/carousel/Slide3.jpg',
+    link: '#conditions', // Add link for "Learn More" button
   },
 ];
 
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [hoveredIndex, setHoveredIndex] = useState(null);
 
   // Automatically move to the next slide every 3 seconds
   useEffect(() => {
@@ -39,6 +45,10 @@ export default function Hero() {
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? slides.length - 1 : prevIndex - 1));
+  };
+
+  const handleLearnMoreClick = (index) => {
+    setHoveredIndex(index === hoveredIndex ? null : index); // Toggle hover effect
   };
 
   return (
@@ -64,16 +74,28 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -20 }}
             transition={{ duration: 0.5 }}
-            className="flex flex-col lg:flex-row items-center gap-6 w-full"
+            className={`flex flex-col lg:flex-row items-center gap-6 w-full ${
+              hoveredIndex === currentIndex ? 'scale-105' : ''
+            }`}
           >
             {/* Text Section */}
             <div className="text-center lg:text-left max-w-lg">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900 mb-4">
                 {slides[currentIndex].title}
               </h1>
-              <p className="text-lg sm:text-xl text-gray-700">
-                {slides[currentIndex].description}
-              </p>
+              <p
+                className="text-lg sm:text-xl text-gray-700 mb-6"
+                dangerouslySetInnerHTML={{ __html: slides[currentIndex].description }}
+              ></p>
+              {/* Learn More Button */}
+            
+                <Link
+  href='#conditions' // Replace with the desired internal link
+  className="inline-block bg-blue-600 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-blue-700 transition"
+>
+  Learn More
+</Link>
+           
             </div>
 
             {/* Image Section */}
@@ -84,7 +106,6 @@ export default function Hero() {
                 className="object-cover w-full h-full"
               />
             </div>
-
           </motion.div>
 
           {/* Right Arrow */}

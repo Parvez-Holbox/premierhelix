@@ -21,7 +21,7 @@ export default function Sidebar() {
     { name: 'Home', href: '#' },
     { name: 'About Us', href: '#about' },
     { name: 'Conditions', href: '#conditions' },
-    { name: 'Contact Us', href: '#contact' },
+    { name: 'Contact Us', href: '#footer' },
   ]
 
   return (
@@ -59,7 +59,7 @@ export default function Sidebar() {
                 href="#contact"
                 className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 text-sm font-medium"
               >
-                Get Started
+                Book Now
               </Link>
             </div>
 
@@ -135,14 +135,14 @@ export default function Sidebar() {
                   </div>
                 </div>
                 
-                {/* Mobile Get Started Button */}
+                {/* Mobile Book Now Button */}
                 <div className="p-4 border-t">
                   <Link
                     href="#contact"
                     onClick={() => setIsOpen(false)}
                     className="flex items-center justify-center w-full bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-3 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 font-medium"
                   >
-                    Get Started
+                    Book Now
                   </Link>
                 </div>
               </div>

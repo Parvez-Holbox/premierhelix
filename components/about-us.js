@@ -48,9 +48,13 @@ export default function AboutUs() {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="relative bg-gray-300 flex items-center justify-center h-[400px] rounded-lg"
+            className="relative h-[400px] rounded-lg overflow-hidden"
           >
-            <span className="text-gray-600">Image Unavailable</span>
+            <img
+              src="/images/services/about-us.jpg" // Replace with your image path
+              alt="About Us"
+              className="object-cover w-full h-full"
+            />
           </motion.div>
         </div>
       </div>
