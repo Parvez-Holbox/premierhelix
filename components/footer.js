@@ -2,12 +2,12 @@ import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-12" id='footer'>
+    <footer className="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-12" id="footer">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Footer Top Sections */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="flex flex-wrap justify-between items-start gap-8">
           {/* Quick Links Section */}
-          <div>
+          <div className="flex-[1] min-w-[150px]">
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
@@ -46,9 +46,9 @@ export default function Footer() {
           </div>
 
           {/* Social Media Section */}
-          <div>
+          <div className="flex-[1] min-w-[120px]">
             <h4 className="text-lg font-semibold mb-4">Social Media</h4>
-            <div className="flex space-x-4">
+            <div className="flex space-x-2">
               <a
                 href="#"
                 aria-label="Facebook"
@@ -74,7 +74,7 @@ export default function Footer() {
           </div>
 
           {/* Contact Information Section */}
-          <div>
+          <div className="flex-[2] min-w-[300px]">
             <h4 className="text-lg font-semibold mb-4">Contact Information</h4>
             <ul className="space-y-2">
               <li className="text-gray-300">Phone: (123) 456-7890</li>
@@ -84,17 +84,17 @@ export default function Footer() {
           </div>
 
           {/* Disclaimer Section */}
-          <div>
+          <div className="flex-[2] min-w-[300px]">
             <h4 className="text-lg font-semibold mb-4">Disclaimer</h4>
             <p className="text-gray-300">
-              Virtual consultations are not a substitute for emergency medical care. In
-              case of an emergency, please dial 911 or visit your nearest hospital.
+              Virtual consultations are not a substitute for emergency medical care.
+              In case of an emergency, please dial 911 or visit your nearest hospital.
             </p>
           </div>
         </div>
 
         {/* Footer Bottom */}
-        <div className="border-t border-blue-700 mt-8 pt-8 text-center text-gray-300">
+        <div className="border-t border-blue-700 mt-8 pt-4 text-center text-gray-300">
           <p>&copy; {new Date().getFullYear()} PremierHelix LLC. All rights reserved.</p>
         </div>
       </div>
