@@ -31,7 +31,7 @@ export default function AboutUs() {
                   Certified Experts
                 </h3>
                 <p className="text-gray-600">
-                  Our team is dedicated to delivering top-notch care with a focus on your unique journey.
+                Our team leverages cutting-edge medical advancements and technology to provide precise and effective care.
                 </p>
               </div>
               <div>
@@ -39,7 +39,7 @@ export default function AboutUs() {
                   Personalized Solutions
                 </h3>
                 <p className="text-gray-600">
-                  We craft individualized plans to help you achieve your goals.
+                We harness the latest in healthcare innovation to create tailored solutions that address your specific health and wellness objectives.
                 </p>
               </div>
             </div>
