@@ -31,7 +31,7 @@ export default function ContactForm() {
             Take the First Step with Us
           </h2>
           <p className="text-gray-600">
-            Complete this form to help us understand your needs better. It only takes a few moments to start your personalized journey with PremierHelix LLC.
+            Complete this form to help us understand your needs better. It only takes a few moments to start your personalized journey with PremierHelix Health.
           </p>
         </motion.div>
 

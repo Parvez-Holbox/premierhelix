@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const slides = [
   {
-    title: 'Welcome to PremierHelix LLC',
+    title: 'Welcome to PremierHelix Health',
     description: 'Empowering innovation through dedicated care and advanced solutions.',
     image: '/images/carousel/Slide1.jpg',
     link: '#conditions', // Add link for "Learn More" button

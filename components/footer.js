@@ -95,7 +95,7 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="border-t border-blue-700 mt-8 pt-4 text-center text-gray-300">
-          <p>&copy; {new Date().getFullYear()} PremierHelix LLC. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} PremierHelix Health. All rights reserved.</p>
         </div>
       </div>
     </footer>

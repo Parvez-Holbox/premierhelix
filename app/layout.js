@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'PremierHelix LLC',
+  title: 'PremierHelix Health',
   description: 'Specialized virtual consultations for epilepsy,<br>stroke recovery, headaches,<br>movement disorders, and dementia.',
 }
 

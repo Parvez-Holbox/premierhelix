@@ -39,7 +39,7 @@ export default function Sidebar() {
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center">
                 <span className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent">
-                  PremierHelix LLC
+                  PremierHelix Health
                 </span>
               </Link>
             </div>
@@ -101,7 +101,7 @@ export default function Sidebar() {
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between p-4 border-b">
                   <span className="text-xl font-bold bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent">
-                    PremierHelix LLC
+                    PremierHelix Health
                   </span>
                   <button
                     onClick={() => setIsOpen(false)}
