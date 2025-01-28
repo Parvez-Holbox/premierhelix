@@ -10,7 +10,7 @@ const conditions = [
       'Premier Helix Health specializes in pediatric neurology, addressing conditions like autism, developmental delays, epilepsy, and chronic pain syndromes.',
       'We provide tailored, compassionate care that empowers families and supports children in reaching developmental milestones.',
     ],
-    image: '/images/services/epilepsy.jpg',
+    image: '/images/services/Child Neurology.jpg',
     href: '#contact',
   },
   {
@@ -28,7 +28,7 @@ const conditions = [
       'We empower caregivers with education, advocacy, and emotional support to navigate their child’s health journey with confidence.',
       'Our focus extends beyond treatment to improve the overall well-being of families.',
     ],
-    image: '/images/services/headache.jpg',
+    image: '/images/services/Empowering Families.jpg',
     href: '#contact',
   },
   {
@@ -64,7 +64,7 @@ const conditions = [
       'Comprehensive diagnosis and care for ALS using advanced diagnostic tools like EMG and nerve conduction studies.',
       'Focus on managing symptoms and improving quality of life for patients and families.',
     ],
-    image: '/images/services/stress.jpg',
+    image: '/images/services/Amyotrophic Lateral Sclerosis.jpg',
     href: '#contact',
   },
   {
