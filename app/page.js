@@ -3,6 +3,7 @@ import Hero from '@/components/hero'
 import ConditionsGrid from '@/components/conditions-grid'
 import AboutUs from '@/components/about-us'
 import ContactForm from '@/components/contact-form'
+import OurStory from '@/components/our-strory'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <ConditionsGrid />
       <AboutUs />
+      <OurStory />
       <ContactForm />
     </Layout>
   )

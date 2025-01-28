@@ -1,15 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Check } from 'lucide-react';
-
-const features = [
-  'Innovative solutions for your well-being',
-  'Expert providers focused on your success',
-  'Personalized care plans tailored to you',
-  'Round-the-clock customer support',
-  'Swift appointments within 24 hours',
-];
 
 export default function AboutUs() {
   return (
@@ -31,26 +22,7 @@ export default function AboutUs() {
                   Our Mission
                 </h3>
                 <p className="text-gray-600">
-                  Premier Helix Health provides accessible, compassionate, and
-                  innovative neurological and psychiatric care to children and
-                  adults, with a focus on underserved communities. By combining
-                  cutting-edge technology with a personal touch, we empower
-                  families to thrive through equitable and tailored care.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-2 text-blue-900">
-                  Our Story
-                </h3>
-                <p className="text-gray-600">
-                  Premier Helix Health was founded to transform how neurological
-                  and psychiatric care is delivered. With a deep understanding
-                  of the barriers faced by patients—whether geography, stigma,
-                  or limited resources—we aim to bridge these gaps. Our approach
-                  prioritizes connection, offering hope, expertise, and
-                  personalized care plans that address complex conditions.
-                  Through innovation and compassion, we strive to make
-                  high-quality care accessible to everyone, anywhere.
+                At Premier Helix Health, our mission is deeply personal: to provide accessible, compassionate, and innovative neurological and psychiatric care to children and adults, especially in underserved communities. As a team of dedicated professionals passionate about healthcare equity, we strive to deliver care that empowers individuals and families to live their fullest lives. Guided by a commitment to understanding and addressing each patient’s unique needs, we are redefining telehealth by combining cutting-edge technology with a human touch.
                 </p>
               </div>
             </div>
@@ -63,7 +35,7 @@ export default function AboutUs() {
           >
             <img
               src="/images/services/about-us.jpg" // Replace with your image path
-              alt="About Us"
+              alt="Our Mission"
               className="object-cover w-full h-full"
             />
           </motion.div>

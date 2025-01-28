@@ -27,9 +27,9 @@ export default function ContactForm() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-blue-900">
-            Take the First Step with Us
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-black-900 text-center">
+            Take the <span className="text-blue-600">First Step with us</span>
+            </h2>
           <p className="text-gray-600">
             Complete this form to help us understand your needs better. It only takes a few moments to start your personalized journey with PremierHelix Health.
           </p>
