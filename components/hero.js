@@ -8,7 +8,7 @@ import Link from 'next/link'
 const slides = [
   {
     title: 'Welcome to PremierHelix Health',
-    description: 'Empowering innovation through dedicated care and advanced solutions.',
+    description: 'Leading the way in compassionate care, empowering families, and transforming lives, one child, one patient, and one community at a time.',
     image: '/images/carousel/Slide1.jpg',
     link: '#conditions', // Add link for "Learn More" button
   },

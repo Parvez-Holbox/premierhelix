@@ -5,31 +5,28 @@ import Link from 'next/link';
 
 const conditions = [
   {
-    title: 'Epilepsy Management',
+    title: 'A Pioneering Focus on Child Neurology',
     description: [
-      'Comprehensive medication reviews to ensure effective seizure control.',
-      'Guidance on lifestyle modifications to reduce seizure triggers.',
-      'Support with treatment adjustments based on your individual needs.',
+      'Premier Helix Health specializes in pediatric neurology, addressing conditions like autism, developmental delays, epilepsy, and chronic pain syndromes.',
+      'We provide tailored, compassionate care that empowers families and supports children in reaching developmental milestones.',
     ],
     image: '/images/services/epilepsy.jpg',
     href: '#contact',
   },
   {
-    title: 'Stroke Medication Management',
+    title: 'Addressing a Critical Gap',
     description: [
-      'Expert monitoring of anticoagulant and antiplatelet medications to prevent future strokes.',
-      'Blood pressure and cholesterol management for improved vascular health.',
-      'Ongoing support for cognitive and physical rehabilitation.',
+      'Premier Helix Health bridges care gaps by reducing long wait times and eliminating geographical barriers.',
+      'Through advanced telehealth, we ensure timely diagnoses and interventions that transform outcomes and improve quality of life.',
     ],
     image: '/images/services/stroke.jpg',
     href: '#contact',
   },
   {
-    title: 'Headache Treatment',
+    title: 'Empowering Families, Transforming Lives',
     description: [
-      'Accurate diagnosis of migraines, cluster headaches, and tension headaches.',
-      'Development of personalized treatment plans, including preventive and abortive medications.',
-      'Strategies for managing chronic headaches and reducing frequency.',
+      'We empower caregivers with education, advocacy, and emotional support to navigate their child’s health journey with confidence.',
+      'Our focus extends beyond treatment to improve the overall well-being of families.',
     ],
     image: '/images/services/headache.jpg',
     href: '#contact',
@@ -37,19 +34,17 @@ const conditions = [
   {
     title: 'Movement Disorders',
     description: [
-      'Specialized care for Parkinson’s disease, essential tremor, and dystonia.',
-      'Medication management to improve motor symptoms and quality of life.',
-      'Guidance on integrating physical therapy and lifestyle changes into your care plan.',
+      'Specialized care for conditions like Parkinson’s disease and dystonia, focusing on improving motor symptoms and quality of life.',
+      'We provide medication management and guidance for integrating physical therapy and lifestyle changes.',
     ],
     image: '/images/services/movement.jpg',
     href: '#contact',
   },
   {
-    title: 'Dementia Care',
+    title: 'Innovation Meets Compassion',
     description: [
-      'Early diagnosis and intervention to slow cognitive decline.',
-      'Medication management to address symptoms like memory loss and confusion.',
-      'Support for caregivers with resources and practical advice for daily challenges.',
+      'Combining cutting-edge technology with empathy, we ensure high-quality care for underserved and remote communities.',
+      'We prioritize patient connection and address barriers to access for marginalized populations.',
     ],
     image: '/images/services/dementia.jpg',
     href: '#contact',
@@ -57,9 +52,8 @@ const conditions = [
   {
     title: 'Migraines and Other Headache Disorders',
     description: [
-      'Diagnosis often depends on patient history and symptoms.',
-      'Imaging like MRI or CT may rule out structural issues.',
-      'Routine physical exams are minimal unless other symptoms emerge.',
+      'Accurate diagnosis and personalized treatment plans for managing chronic migraines and tension headaches.',
+      'Strategies include preventive medications and solutions tailored to reduce headache frequency.',
     ],
     image: '/images/services/ocd.jpg',
     href: '#contact',
@@ -67,17 +61,17 @@ const conditions = [
   {
     title: 'Amyotrophic Lateral Sclerosis (ALS)',
     description: [
-      'Diagnosis involves EMG, nerve conduction studies, and patient-reported symptoms.',
-      'Routine physical exams are less emphasized compared to other diagnostic tools.',
+      'Comprehensive diagnosis and care for ALS using advanced diagnostic tools like EMG and nerve conduction studies.',
+      'Focus on managing symptoms and improving quality of life for patients and families.',
     ],
     image: '/images/services/stress.jpg',
     href: '#contact',
   },
   {
-    title: 'Multiple Sclerosis (MS)',
+    title: 'A Mission-Driven Approach to the Future',
     description: [
-      'MRI is the primary diagnostic tool to detect lesions in the CNS.',
-      'Routine check-ups focus more on symptom management rather than physical exams.',
+      'Premier Helix Health is transforming telehealth by addressing the intersection of child neurology, adult neurology, and psychiatry.',
+      'Our mission is to deliver equitable, accessible, and specialized care to underserved communities.',
     ],
     image: '/images/services/other.jpg',
     href: '#contact',

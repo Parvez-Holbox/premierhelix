@@ -23,23 +23,34 @@ export default function AboutUs() {
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-black-900">
               Empowering innovation and wellness at{' '}
-              <span className="text-blue-600">PremierHelix Health</span>
+              <span className="text-blue-600">Premier Helix Health</span>
             </h2>
             <div className="space-y-8">
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-blue-900">
-                  Certified Experts
+                  Our Mission
                 </h3>
                 <p className="text-gray-600">
-                Our team leverages cutting-edge medical advancements and technology to provide precise and effective care.
+                  Premier Helix Health provides accessible, compassionate, and
+                  innovative neurological and psychiatric care to children and
+                  adults, with a focus on underserved communities. By combining
+                  cutting-edge technology with a personal touch, we empower
+                  families to thrive through equitable and tailored care.
                 </p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-blue-900">
-                  Personalized Solutions
+                  Our Story
                 </h3>
                 <p className="text-gray-600">
-                We harness the latest in healthcare innovation to create tailored solutions that address your specific health and wellness objectives.
+                  Premier Helix Health was founded to transform how neurological
+                  and psychiatric care is delivered. With a deep understanding
+                  of the barriers faced by patients—whether geography, stigma,
+                  or limited resources—we aim to bridge these gaps. Our approach
+                  prioritizes connection, offering hope, expertise, and
+                  personalized care plans that address complex conditions.
+                  Through innovation and compassion, we strive to make
+                  high-quality care accessible to everyone, anywhere.
                 </p>
               </div>
             </div>
