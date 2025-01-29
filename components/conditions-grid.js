@@ -28,7 +28,7 @@ const conditions = [
       'We empower caregivers with education, advocacy, and emotional support to navigate their child’s health journey with confidence.',
       'Our focus extends beyond treatment to improve the overall well-being of families.',
     ],
-    image: '/images/services/Empowering Families.jpg',
+    image: '/images/services/Empowering Families.png',
     href: '#contact',
   },
   {
@@ -64,7 +64,7 @@ const conditions = [
       'Comprehensive diagnosis and care for ALS using advanced diagnostic tools like EMG and nerve conduction studies.',
       'Focus on managing symptoms and improving quality of life for patients and families.',
     ],
-    image: '/images/services/Amyotrophic Lateral Sclerosis.jpg',
+    image: '/images/services/Amyotrophic Lateral Sclerosis.png',
     href: '#contact',
   },
   {
