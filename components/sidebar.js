@@ -56,7 +56,7 @@ export default function Sidebar() {
                 </Link>
               ))}
               <Link
-                href="#contact"
+                href={process.env.NEXT_PUBLIC_CALENDLY_URL}
                 className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 text-sm font-medium"
               >
                 Book Now
@@ -138,7 +138,7 @@ export default function Sidebar() {
                 {/* Mobile Book Now Button */}
                 <div className="p-4 border-t">
                   <Link
-                    href="#contact"
+                    href={process.env.NEXT_PUBLIC_CALENDLY_URL}
                     onClick={() => setIsOpen(false)}
                     className="flex items-center justify-center w-full bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-3 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 font-medium"
                   >
